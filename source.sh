@@ -36,4 +36,5 @@ echo "Setting up oh-my-zsh"
 echo "Setting up neofetch"
 ./neofetch.sh
 
-
+echo "Setting up azure cli"
+./azure-cli.sh
