@@ -6,8 +6,6 @@ if [ "$(id -u)" -ne 0 ]; then
     exit 1
 fi
 
-# Update the package database and upgrade installed packages
-pacman -Syu --noconfirm
 
 # Install Zsh
 echo "Installing Zsh..."

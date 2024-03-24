@@ -6,6 +6,9 @@ if [ "$(id -u)" -ne 0 ]; then
     exit 1
 fi
 
+echo "Updating pacman"
+pacman -Syu --noconfirm
+
 echo "Installing yay"
 ./yay.sh
 

@@ -6,9 +6,9 @@ if [ "$(id -u)" -ne 0 ]; then
     exit 1
 fi
 
-echo "Installing Node.js and npm..."
-pacman -S --noconfirm nodejs npm
+echo "Installing xclip..."
+pacman -S --noconfirm xclip
 
-npm i -G yarn pnpm vite typescript turbo
-echo "Node.js and npm installation complete."
+echo "XClip installation complete."
+
 
