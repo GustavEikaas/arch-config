@@ -41,3 +41,7 @@ echo "Setting up neofetch"
 
 echo "Setting up azure cli"
 ./azure-cli.sh
+
+echo "Setting up lsd"
+./lsd.sh
+
