@@ -9,6 +9,8 @@ fi
 # Install dotnet-runtime using yay
 echo "Installing dotnet-runtime..."
 yay -S --noconfirm dotnet-runtime
+yay -S --noconfirm dotnet-sdk
+yay -S --noconfirm aspnet-runtime
 
 echo "dotnet-runtime installation complete."
 
